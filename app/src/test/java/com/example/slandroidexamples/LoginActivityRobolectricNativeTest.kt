@@ -6,18 +6,16 @@ import android.widget.EditText
 import android.widget.TextView
 import com.example.slandroidexamples.ui.login.LoginActivity
 import com.google.common.truth.Truth
-import org.junit.Assert
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.Robolectric
 import org.robolectric.RobolectricTestRunner
-import org.robolectric.Shadows
 import org.robolectric.annotation.Config
 
 
 @RunWith(RobolectricTestRunner::class)
 @Config(sdk = [Build.VERSION_CODES.P])
-class LoginActivityTest {
+class LoginActivityRobolectricNativeTest {
 
     @Test
     fun loginButtonShouldBeDisabledIfNoUserNameAndPasswordProvided() {
