@@ -24,3 +24,5 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+// SeaLights Gradle-plugin integration
+apply from: '/home/kamil/workspace/sealights/projects/SL.Android.Examples/sealights.gradle'

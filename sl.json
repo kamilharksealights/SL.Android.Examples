@@ -1,0 +1,22 @@
+{
+  "token": "eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL0RFVi1rYW1pbC5hdXRoLnNlYWxpZ2h0cy5pby8iLCJqd3RpZCI6IkRFVi1rYW1pbCxpLTBjOGZmMTk5YzI1ZTJmNzAyLEFQSUdXLTYwZmE2NTQ0LWUyOTYtNDgyNC1iYTM1LWU4OWZlMjZkMTgyYSwxNjAwNzU4MjM3NDc5Iiwic3ViamVjdCI6IlNlYUxpZ2h0c0BhZ2VudCIsImF1ZGllbmNlIjpbImFnZW50cyJdLCJ4LXNsLXJvbGUiOiJhZ2VudCIsIngtc2wtc2VydmVyIjoiaHR0cHM6Ly9kZXYta2FtaWwtZ3cuZGV2LnNlYWxpZ2h0cy5jby9hcGkiLCJzbF9pbXBlcl9zdWJqZWN0IjoiIiwiaWF0IjoxNjAwNzU4MjM3fQ.a3eBM7gwh1orpf1gxmI-dNX-bCzueQ45_HUZQI1QbWbyfEpdakn-iSHT2eDUNjXNgpsSi0m4qubeG7-KFl4kL704iET-Lv-jTowUDSp7JbDFyu6OyNPYLGQCGeNGtvqYELXJ2GPebWW5-7E-hzOifNOZ7oIaWgDPl1hsnU-0fKcpDuRqB0VQEclwrIFY1xjIfPrzpwte4Q0uFftipa370wv7ubG-Ycx-Bh64JDtM3-p0YkVlyrMxOBp9PB4N3yOYH-36TdYgkeoXluNPjkzox8EdAN_LfwUMkk4yTC9ne6BLg-06M1qqhirB4GnA6VgtF7dpo2zxnvbdh6f_F1f1iI1JR9IDHcKrsF--KpvQX09lt_Peru_XyAF68mO6StHaE1mrlG-7hv-jUiDsnN1dmMWv82ktGFbSp_EwyyTaA_6hAFLEMFGuPID8tm_We4gNWaai00MmWikZkeXWi3gb0kvRCWbU5sMcV1WxMCo-YAVTlpLS0A41wBLPP9E1ITUHFD1Tj_JgN8zXk3vH30FV0ftkHzeRrk3v_FMsCIP3FbpJd2vigMS7X-bH3xJuvja2Dzf0O_GLe9mTvVSoUWoC3VpgJhd7I1IDMY6P_k1YAHSHTBOLAotffs7rKW2mdx8T3Idom_9Ct_BmGGYT9d5BQ5VxRKZm__ArbyayO80i3-k",
+  "createBuildSessionId": true,
+  "appName": "SL.Android.Examples",
+  "branchName": "master",
+  "buildName": "SL_Timestamp",
+  "packagesIncluded": "*com.example.*",
+  "packagesExcluded": "",
+  "filesIncluded": "*.class",
+  "filesExcluded": "*test-classes*",
+  "recursive": true,
+  "includeResources": true,
+  "labId": null,
+  "executionType": "full",
+  "logEnabled": true,
+  "logDestination": "console",
+  "logLevel": "info",
+  "logFolder": "/tmp",
+  "gradleProjectConfig": {
+    "repoConfig": "mavenLocal()"
+  }
+}

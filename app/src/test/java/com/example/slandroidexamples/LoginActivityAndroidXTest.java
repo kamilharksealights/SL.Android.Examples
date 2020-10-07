@@ -6,6 +6,8 @@ import com.example.slandroidexamples.ui.login.LoginActivity;
 import com.google.common.truth.Truth;
 
 import android.os.Build;
+
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.annotation.Config;
@@ -24,6 +26,16 @@ public class LoginActivityAndroidXTest {
 
         onView(withId(R.id.login))
                 .check((view, ignored) -> Truth.assertThat(view.isEnabled()).isFalse());
+    }
+
+
+    @Test
+    @Ignore
+    public void loginButtonShouldBeDisabledIfNoUserNameAndPasswordProvided2() {
+        launch(LoginActivity.class);
+
+        onView(withId(R.id.login))
+                .check((view, ignored) -> Truth.assertThat(view.isEnabled()).isTrue());
     }
 
 }
