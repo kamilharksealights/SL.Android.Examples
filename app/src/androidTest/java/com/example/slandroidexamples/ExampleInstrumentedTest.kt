@@ -1,12 +1,14 @@
 package com.example.slandroidexamples
 
-import androidx.test.platform.app.InstrumentationRegistry
+import android.view.View
+import androidx.test.core.app.ActivityScenario
+import androidx.test.espresso.Espresso
+import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.ext.junit.runners.AndroidJUnit4
-
+import com.example.slandroidexamples.ui.login.LoginActivity
+import com.google.common.truth.Truth
 import org.junit.Test
 import org.junit.runner.RunWith
-
-import org.junit.Assert.*
 
 /**
  * Instrumented test, which will execute on an Android device.
@@ -16,9 +18,11 @@ import org.junit.Assert.*
 @RunWith(AndroidJUnit4::class)
 class ExampleInstrumentedTest {
     @Test
-    fun useAppContext() {
-        // Context of the app under test.
-        val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.example.slandroidexamples", appContext.packageName)
+    fun loginButtonShouldBeDisabledIfNoUserNameAndPasswordProvided() {
+        ActivityScenario.launch(LoginActivity::class.java)
+        Espresso.onView(withId(R.id.login)).check { view: View, _ ->
+            Truth.assertThat(view.isEnabled).isFalse()
+        }
     }
+
 }

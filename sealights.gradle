@@ -34,12 +34,12 @@ includeResources=true
 runTestOnly=false
 logEnabled=true
 logPluginMinimal=false
-logToConsole=false
-logLevel="off"
+logToConsole=true
+logLevel="debug"
 logFolder="/tmp"
-createBuildSessionId=true
+createBuildSessionId=false
 build="SL_Timestamp"
-
+buildSessionIdFile="buildSessionId.txt"
 buildScannerJar="/home/kamil/workspace/sealights/projects/SL.OnPremise.Agents.Java/java-build-agent/target/java-build-agent-3.0.0-SNAPSHOT.jar"
 branch="master"
 
