@@ -12,6 +12,7 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -44,6 +45,8 @@ dependencies {
     testImplementation group: 'com.google.truth', name: 'truth', version: '1.0.1'
     testImplementation 'androidx.test.ext:junit:1.1.1'
     testImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    androidTestImplementation 'androidx.test:rules:1.1.0'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     androidTestImplementation group: 'com.google.truth', name: 'truth', version: '1.0.1'
