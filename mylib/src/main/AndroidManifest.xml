@@ -1,5 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mylib">
 
-    /
+    <application>
+        <service
+            android:name=".Lib1Service"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
 </manifest>

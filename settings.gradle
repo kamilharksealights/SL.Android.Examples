@@ -1,3 +1,6 @@
+include ':testing'
+include ':plainlib'
+include ':mylib2'
 include ':mylib'
 include ':app'
 rootProject.name = "SL.Android.Examples"
