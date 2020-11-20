@@ -5,8 +5,8 @@ buildscript {
         mavenLocal()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:4.0.1")
-        classpath("com.android.tools.build:gradle-api:4.0.1")
+//        classpath("com.android.tools.build:gradle:4.0.1")
+//        classpath("com.android.tools.build:gradle-api:4.0.1")
         "classpath"(group = "io.sealights.on-premise.agents.plugin", name = "sealights-gradle-plugin", version = "3.0.0")
     }
 }
